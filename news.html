@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest News - CryptoNews</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1><a href="index.html">CryptoNews</a></h1>
+                </div>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav class="nav-menu" id="navMenu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html" class="active">News</a></li>
+                        <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider"></div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <section class="page-header">
+                <h1 class="page-title">Latest News</h1>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="finance">Finance</button>
+                    <button class="filter-btn" data-filter="market">Market</button>
+                    <button class="filter-btn" data-filter="tech">Tech</button>
+                </div>
+            </section>
+
+            <div class="articles-container">
+                <!-- Article 1 -->
+                <article class="article-card" data-category="tech">
+                    <div class="article-image">
+                        <img src="https://picsum.photos/seed/news1/600/300.jpg" alt="Article Image">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="category-tag tech">Tech</span>
+                            <span class="date">December 18, 2024</span>
+                        </div>
+                        <h2 class="article-title">Ethereum 2.0 Upgrade Shows Promising Results in Test Networks</h2>
+                        <p class="article-excerpt">The latest Ethereum upgrade demonstrates significant improvements in transaction speed and energy efficiency...</p>
+                        <a href="#" class="read-more">Read Full Story</a>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="article-card" data-category="finance">
+                    <div class="article-image">
+                        <img src="https://picsum.photos/seed/news2/600/300.jpg" alt="Article Image">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="category-tag finance">Finance</span>
+                            <span class="date">December 17, 2024</span>
+                        </div>
+                        <h2 class="article-title">Central Banks Explore Digital Currency Integration with Blockchain</h2>
+                        <p class="article-excerpt">Several major central banks are piloting programs to integrate blockchain technology with their digital currency initiatives...</p>
+                        <a href="#" class="read-more">Read Full Story</a>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="article-card" data-category="market">
+                    <div class="article-image">
+                        <img src="https://picsum.photos/seed/news3/600/300.jpg" alt="Article Image">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="category-tag market">Market</span>
+                            <span class="date">December 16, 2024</span>
+                        </div>
+                        <h2 class="article-title">DeFi Sector Sees Record Trading Volume Despite Regulatory Concerns</h2>
+                        <p class="article-excerpt">Decentralized finance platforms report unprecedented trading volumes as regulatory frameworks begin to take shape...</p>
+                        <a href="#" class="read-more">Read Full Story</a>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="article-card" data-category="tech">
+                    <div class="article-image">
+                        <img src="https://picsum.photos/seed/news4/600/300.jpg" alt="Article Image">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="category-tag tech">Tech</span>
+                            <span class="date">December 15, 2024</span>
+                        </div>
+                        <h2 class="article-title">NFT Marketplaces Implement New Sustainability Measures</h2>
+                        <p class="article-excerpt">Leading NFT platforms announce carbon-neutral initiatives to address environmental concerns in digital art...</p>
+                        <a href="#" class="read-more">Read Full Story</a>
+                    </div>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="article-card" data-category="finance">
+                    <div class="article-image">
+                        <img src="https://picsum.photos/seed/news5/600/300.jpg" alt="Article Image">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="category-tag finance">Finance</span>
+                            <span class="date">December 14, 2024</span>
+                        </div>
+                        <h2 class="article-title">Stablecoin Regulations Expected to Shape Future of Digital Assets</h2>
+                        <p class="article-excerpt">Government agencies worldwide are drafting comprehensive frameworks for stablecoin oversight...</p>
+                        <a href="#" class="read-more">Read Full Story</a>
+                    </div>
+                </article>
+
+                <!-- Article 6 -->
+                <article class="article-card" data-category="market">
+                    <div class="article-image">
+                        <img src="https://picsum.photos/seed/news6/600/300.jpg" alt="Article Image">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="category-tag market">Market</span>
+                            <span class="date">December 13, 2024</span>
+                        </div>
+                        <h2 class="article-title">Altcoin Season Begins as Investor Interest Diversifies</h2>
+                        <p class="article-excerpt">Beyond Bitcoin and Ethereum, investors are showing increased interest in emerging cryptocurrencies...</p>
+                        <a href="#" class="read-more">Read Full Story</a>
+                    </div>
+                </article>
+
+                <!-- Article 7 -->
+                <article class="article-card" data-category="tech">
+                    <div class="article-image">
+                        <img src="https://picsum.photos/seed/news7/600/300.jpg" alt="Article Image">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="category-tag tech">Tech</span>
+                            <span class="date">December 12, 2024</span>
+                        </div>
+                        <h2 class="article-title">Layer 2 Solutions Gain Traction Amid Scalability Challenges</h2>
+                        <p class="article-excerpt">New Layer 2 protocols are showing promise in addressing blockchain scalability issues while maintaining security...</p>
+                        <a href="#" class="read-more">Read Full Story</a>
+                    </div>
+                </article>
+
+                <!-- Article 8 -->
+                <article class="article-card" data-category="market">
+                    <div class="article-image">
+                        <img src="https://picsum.photos/seed/news8/600/300.jpg" alt="Article Image">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="category-tag market">Market</span>
+                            <span class="date">December 11, 2024</span>
+                        </div>
+                        <h2 class="article-title">Institutional Investors Increase Crypto Holdings</h2>
+                        <p class="article-excerpt">Major investment firms report significant increases in cryptocurrency allocations in their portfolios...</p>
+                        <a href="#" class="read-more">Read Full Story</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 CryptoNews. All Rights Reserved.</p>
+                <p>cryptonews.page.gd</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
